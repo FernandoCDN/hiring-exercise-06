@@ -1,0 +1,42 @@
+
+.border-danger
+{
+    background-color: white;
+    width: 80vw;
+    height: 68vh;
+
+    border-radius: 12px;
+    
+    padding: 10px;
+
+}
+
+h2
+{
+    margin: 10px 10px;
+}
+
+.inputs
+{
+    
+    display: flex;
+    align-items: center;
+}
+
+.input-group
+{
+    width: 25vw;
+    margin:18px 10px;
+}
+
+button
+{
+    margin:10px;
+    background-color: #E30512;
+}
+
+.table
+{
+    margin: 20px 10px;
+    width: 76vw;
+}

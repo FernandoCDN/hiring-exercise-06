@@ -1,0 +1,59 @@
+<router-outlet></router-outlet>
+
+<section class="border border-danger">
+
+  <h2>Search Client by Product</h2>
+
+  <div class="inputs">
+  
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Client Identification</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="clientIdentification" [(ngModel)]="clientIdentification">
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Product Id</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="productId" [(ngModel)]="productId">
+    </div>
+
+    <button type="button" class="btn btn-danger" (click)="search()">Search</button>
+
+  </div>
+  
+
+  <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+
+  <!-- <div *ngIf="riskData">
+
+    {{ riskData }}
+
+  </div> -->
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Client</th>
+        <th scope="col">Product</th>
+        <th scope="col">Standard Deviation</th>
+        <th scope="col">Maximum peak Index of late payment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of riskData">
+        <th scope="row">1</th>
+        <td>{{item.client.name}}</td>
+        <td>{{item.product.name}}</td>
+        <td>{{item.standardDeviation}}</td>
+        <td>{{item.paymentDelayMaxPeakIndex}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+</section>
+
