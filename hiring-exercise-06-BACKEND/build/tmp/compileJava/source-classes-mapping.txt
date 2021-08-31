@@ -1,0 +1,21 @@
+com/scotiabankcolpatria/hiring/controllers/riskEvaluationController.java
+ com.scotiabankcolpatria.hiring.controllers.riskEvaluationController
+com/scotiabankcolpatria/hiring/models/productModel.java
+ com.scotiabankcolpatria.hiring.models.productModel
+com/scotiabankcolpatria/hiring/models/riskEvaluationModel.java
+ com.scotiabankcolpatria.hiring.models.riskEvaluationModel
+com/scotiabankcolpatria/hiring/CreditRiskAssessment.java
+ com.scotiabankcolpatria.hiring.CreditRiskAssessment
+ com.scotiabankcolpatria.hiring.CreditRiskAssessment$1
+com/scotiabankcolpatria/hiring/services/riskEvaluationService.java
+ com.scotiabankcolpatria.hiring.services.riskEvaluationService
+com/scotiabankcolpatria/hiring/models/paymentDelayModel.java
+ com.scotiabankcolpatria.hiring.models.paymentDelayModel
+com/scotiabankcolpatria/hiring/models/clientModel.java
+ com.scotiabankcolpatria.hiring.models.clientModel
+com/scotiabankcolpatria/hiring/repositories/clientRepository.java
+ com.scotiabankcolpatria.hiring.repositories.clientRepository
+com/scotiabankcolpatria/hiring/repositories/productRepository.java
+ com.scotiabankcolpatria.hiring.repositories.productRepository
+com/scotiabankcolpatria/hiring/repositories/paymentDelayRepository.java
+ com.scotiabankcolpatria.hiring.repositories.paymentDelayRepository
